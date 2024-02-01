@@ -1,0 +1,90 @@
+/*reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo del body*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/*estilo del header*/
+header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+.HeaderLogo {
+    width: 80px;
+}
+.HeaderCont {
+    margin-bottom: 20px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: underline;
+    color: black;
+}
+nav ul li a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+    color: blue;
+}
+/*estilo del main*/
+main {
+    margin: 10px;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+.MainContIndex {
+    text-align: center;
+}
+.MainImgResumen {
+    align-content: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.MainContResumen {
+    text-align: left;
+    margin: 10px;
+}
+.MainContAplicaciones {
+    background-color: rgb(203, 202, 202);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.MainImgAppAplicaciones {
+    width: 80px
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+}
+/*estilo del footer*/
+footer {
+    border-top: 1px solid black;
+    text-align: right;
+    padding: 20px;
+}
+.FooterLogo {
+    width: 60px;
+    align-content:last baseline;
+}
+/*estilos generales*/
